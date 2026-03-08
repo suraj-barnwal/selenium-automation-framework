@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-08T21:07:35 IST" name="Default suite" finished-at="2026-03-08T21:08:01 IST" duration-ms="25986">
+    <groups>
+    </groups>
+    <test started-at="2026-03-08T21:07:35 IST" name="Default test" finished-at="2026-03-08T21:08:01 IST" duration-ms="25986">
+      <class name="tests.LoginPageTest">
+        <test-method is-config="true" signature="UrlLaunch()[pri:0, instance:tests.LoginPageTest@3fc2959f]" started-at="2026-03-08T21:07:35 IST" name="UrlLaunch" finished-at="2026-03-08T21:07:49 IST" duration-ms="14146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UrlLaunch -->
+        <test-method signature="clickOnLogin()[pri:1, instance:tests.LoginPageTest@3fc2959f]" started-at="2026-03-08T21:07:49 IST" name="clickOnLogin" finished-at="2026-03-08T21:07:56 IST" duration-ms="6486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnLogin -->
+        <test-method signature="clickOnName()[pri:2, instance:tests.LoginPageTest@3fc2959f]" started-at="2026-03-08T21:07:56 IST" name="clickOnName" finished-at="2026-03-08T21:07:56 IST" duration-ms="547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnName -->
+        <test-method signature="clickOnEmail()[pri:3, instance:tests.LoginPageTest@3fc2959f]" started-at="2026-03-08T21:07:56 IST" name="clickOnEmail" finished-at="2026-03-08T21:07:56 IST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnEmail -->
+        <test-method signature="clickOnSubmit()[pri:4, instance:tests.LoginPageTest@3fc2959f]" started-at="2026-03-08T21:07:56 IST" name="clickOnSubmit" finished-at="2026-03-08T21:08:01 IST" duration-ms="4527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSubmit -->
+      </class> <!-- tests.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
