@@ -27,9 +27,28 @@ public class LoginPageTest extends BaseTest{
 		ob.enterEmail("johnwick1234@gmail.com");
 	}
 	@Test(priority = 4)
-	public void clickOnSubmit() {
-		ob.submitBtm();
+	public void clickOnFillPass() {
+		ob.fillPassword("Wick@123456");
 	}
-	
+	@Test(priority = 5)
+	public void clickOnDate() {
+		ob.selectDay("3");
+		ob.selectMonth("January");
+		ob.selectYear("2020");
+	}
+	@Test(priority = 6)
+	public void fillDetails() {
+		ob.firstN("John");
+		ob.lastN("Wick");
+		ob.companyN("ABC Company Ltd");
+		ob.addOne("Sector 140, Greater Noida");
+		ob.addTwo("UP, 123455");
+		ob.countryN("India");
+		ob.stateN("UP");
+		ob.cityN("Greater Noida");
+		ob.zipC("123456");
+		ob.mobileN("5678765435");
+		
+	}
 	
 }

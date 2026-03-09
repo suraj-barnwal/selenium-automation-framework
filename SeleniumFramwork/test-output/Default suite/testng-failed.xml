@@ -5,11 +5,11 @@
     <classes>
       <class name="tests.LoginPageTest">
         <methods>
-          <include name="clickOnName"/>
           <include name="UrlLaunch"/>
+          <include name="clickOnFillPass"/>
           <include name="clickOnEmail"/>
-          <include name="clickOnSubmit"/>
-          <include name="clickOnLogin"/>
+          <include name="clickOnDate"/>
+          <include name="fillDetails"/>
         </methods>
       </class> <!-- tests.LoginPageTest -->
     </classes>
