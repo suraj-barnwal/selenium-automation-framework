@@ -1,40 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-09T12:38:34 IST" name="Default suite" finished-at="2026-03-09T12:38:50 IST" duration-ms="16275">
+  <suite started-at="2026-03-10T23:21:07 IST" name="Default suite" finished-at="2026-03-10T23:21:23 IST" duration-ms="16284">
     <groups>
     </groups>
-    <test started-at="2026-03-09T12:38:34 IST" name="Default test" finished-at="2026-03-09T12:38:50 IST" duration-ms="16275">
+    <test started-at="2026-03-10T23:21:07 IST" name="Default test" finished-at="2026-03-10T23:21:23 IST" duration-ms="16284">
       <class name="tests.LoginPageTest">
-        <test-method is-config="true" signature="UrlLaunch()[pri:0, instance:tests.LoginPageTest@6989da5e]" started-at="2026-03-09T12:38:34 IST" name="UrlLaunch" finished-at="2026-03-09T12:38:42 IST" duration-ms="8037" status="PASS">
+        <test-method is-config="true" signature="UrlLaunch()[pri:0, instance:tests.LoginPageTest@139982de]" started-at="2026-03-10T23:21:07 IST" name="UrlLaunch" finished-at="2026-03-10T23:21:14 IST" duration-ms="7403" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UrlLaunch -->
-        <test-method signature="clickOnLogin()[pri:1, instance:tests.LoginPageTest@6989da5e]" started-at="2026-03-09T12:38:42 IST" name="clickOnLogin" finished-at="2026-03-09T12:38:44 IST" duration-ms="1921" status="PASS">
+        <test-method signature="clickOnLogin()[pri:1, instance:tests.LoginPageTest@139982de]" started-at="2026-03-10T23:21:14 IST" name="clickOnLogin" finished-at="2026-03-10T23:21:17 IST" duration-ms="2393" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnLogin -->
-        <test-method signature="clickOnName()[pri:2, instance:tests.LoginPageTest@6989da5e]" started-at="2026-03-09T12:38:44 IST" name="clickOnName" finished-at="2026-03-09T12:38:44 IST" duration-ms="132" status="PASS">
+        <test-method signature="clickOnName()[pri:2, instance:tests.LoginPageTest@139982de]" started-at="2026-03-10T23:21:17 IST" name="clickOnName" finished-at="2026-03-10T23:21:17 IST" duration-ms="293" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnName -->
-        <test-method signature="clickOnEmail()[pri:3, instance:tests.LoginPageTest@6989da5e]" started-at="2026-03-09T12:38:44 IST" name="clickOnEmail" finished-at="2026-03-09T12:38:47 IST" duration-ms="2622" status="PASS">
+        <test-method signature="clickOnEmail()[pri:3, instance:tests.LoginPageTest@139982de]" started-at="2026-03-10T23:21:17 IST" name="clickOnEmail" finished-at="2026-03-10T23:21:18 IST" duration-ms="1460" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnEmail -->
-        <test-method signature="clickOnFillPass()[pri:4, instance:tests.LoginPageTest@6989da5e]" started-at="2026-03-09T12:38:47 IST" name="clickOnFillPass" finished-at="2026-03-09T12:38:47 IST" duration-ms="848" status="PASS">
+        <test-method signature="clickOnFillPass()[pri:4, instance:tests.LoginPageTest@139982de]" started-at="2026-03-10T23:21:18 IST" name="clickOnFillPass" finished-at="2026-03-10T23:21:19 IST" duration-ms="452" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnFillPass -->
-        <test-method signature="clickOnDate()[pri:5, instance:tests.LoginPageTest@6989da5e]" started-at="2026-03-09T12:38:47 IST" name="clickOnDate" finished-at="2026-03-09T12:38:49 IST" duration-ms="1049" status="PASS">
+        <test-method signature="clickOnDate()[pri:5, instance:tests.LoginPageTest@139982de]" started-at="2026-03-10T23:21:19 IST" name="clickOnDate" finished-at="2026-03-10T23:21:20 IST" duration-ms="838" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnDate -->
-        <test-method signature="fillDetails()[pri:6, instance:tests.LoginPageTest@6989da5e]" started-at="2026-03-09T12:38:49 IST" name="fillDetails" finished-at="2026-03-09T12:38:50 IST" duration-ms="1581" status="PASS">
+        <test-method signature="fillDetails()[pri:6, instance:tests.LoginPageTest@139982de]" started-at="2026-03-10T23:21:20 IST" name="fillDetails" finished-at="2026-03-10T23:21:21 IST" duration-ms="1049" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillDetails -->
+        <test-method signature="createA()[pri:7, instance:tests.LoginPageTest@139982de]" started-at="2026-03-10T23:21:21 IST" name="createA" finished-at="2026-03-10T23:21:23 IST" duration-ms="2282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createA -->
+        <test-method signature="AccCreated()[pri:8, instance:tests.LoginPageTest@139982de]" started-at="2026-03-10T23:21:23 IST" name="AccCreated" finished-at="2026-03-10T23:21:23 IST" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccCreated -->
       </class> <!-- tests.LoginPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
