@@ -52,7 +52,7 @@ public class LoginPage extends BasePage{
 		waitUntilClick(submit);
 	}
 	public void fillPassword(String pass) {
-		waitUntilClick(gender);
+		waitUntilClick(addressOne);
 		waitUntilVisible(password);
 		password.sendKeys(pass);
 	}
