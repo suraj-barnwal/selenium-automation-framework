@@ -24,11 +24,11 @@ public class LoginPageTest extends BaseTest{
 	}
 	@Test(priority = 3)
 	public void clickOnEmail() {
-		ob.enterEmail("johnwick1234@gmail.com");
+		ob.enterEmail("johnwick589745@gmail.com");
 	}
 	@Test(priority = 4)
 	public void clickOnFillPass() {
-		ob.fillPassword("Wick@123456");
+		ob.fillPassword("Johdffn@1458579");
 	}
 	@Test(priority = 5)
 	public void clickOnDate() {
@@ -50,5 +50,14 @@ public class LoginPageTest extends BaseTest{
 		ob.mobileN("5678765435");
 		
 	}
+	@Test(priority = 7)
+	public void createA() {
+		ob.createAccount();
+	}
+	@Test(priority = 8)
+	public void AccCreated() {
+		ob.AccountCreated();
+	}
+	
 	
 }

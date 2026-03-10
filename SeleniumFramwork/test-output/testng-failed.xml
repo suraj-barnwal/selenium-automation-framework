@@ -5,11 +5,9 @@
     <classes>
       <class name="tests.LoginPageTest">
         <methods>
+          <include name="AccCreated"/>
           <include name="UrlLaunch"/>
           <include name="clickOnFillPass"/>
-          <include name="clickOnEmail"/>
-          <include name="clickOnDate"/>
-          <include name="fillDetails"/>
         </methods>
       </class> <!-- tests.LoginPageTest -->
     </classes>

@@ -18,7 +18,7 @@ public class BasePage implements WaitUtility, SelectUtility{
 	public BasePage(WebDriver driver) {
 		// TODO Auto-generated constructor stub
 		this.driver=driver;
-		wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 	}
 	
 	@Override

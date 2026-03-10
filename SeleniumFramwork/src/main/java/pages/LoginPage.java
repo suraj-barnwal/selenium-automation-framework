@@ -40,6 +40,8 @@ public class LoginPage extends BasePage{
 	@FindBy(id = "mobile_number") private WebElement mobile_number;
 	@FindBy(css = "button[data-qa=\"create-account\"]") private WebElement createAcc;
 	
+	@FindBy(xpath = "//b[text()='Account Created!']") private WebElement accountCreated;
+	
 	public void login() {
 		waitUntilClick(login);
 	}
@@ -52,9 +54,9 @@ public class LoginPage extends BasePage{
 		waitUntilClick(submit);
 	}
 	public void fillPassword(String pass) {
-		waitUntilClick(addressOne);
-		waitUntilVisible(password);
+		waitUntilClick(gender);
 		password.sendKeys(pass);
+		waitUntilClick(addressOne);
 	}
 	public void selectDay(String date) {
 		selectByVisibleText(day, date);
@@ -64,7 +66,7 @@ public class LoginPage extends BasePage{
 	}
 	public void selectYear(String yearName) {
 		selectByVisibleText(year, yearName);
-		checkBoxTwo.click();
+		waitUntilClick(checkBoxTwo);
 	}
 	public void firstN(String detail) {
 		firstName.sendKeys(detail);
@@ -97,6 +99,12 @@ public class LoginPage extends BasePage{
 		mobile_number.sendKeys(detail);
 	}
 	public void createAccount() {
+		waitUntilVisible(createAcc);
 		waitUntilClick(createAcc);
+	}
+	public void AccountCreated() {
+		waitUntilVisible(accountCreated);
+		
+		System.out.println(accountCreated.getText());
 	}
 }
